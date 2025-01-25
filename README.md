@@ -1,70 +1,51 @@
-# 🏗️ Module 08 Mini-Project: Zoo Animal and Employee Tracker Using TypeScript and OOP
+# Zoo Animal and Employee Tracker Using TypeScript and OOP
 
-In this mini-project, you will work with a group to complete the Zoo Animal and Employee Tracking app by filling in the missing classes while using TypeScript to build a robust and less error prone application.
+The Zoo Animal and Employee Tracker is an interactive application designed to efficiently manage and track zoo animals and employees. Leveraging TypeScript, the project incorporates Object-Oriented Programming (OOP) principles to create a scalable, maintainable, and robust system. By using TypeScript’s static typing, the application ensures fewer runtime errors, allowing for smoother operations and a more reliable experience.
 
-* As a developer, I want a robust and less error prone application built using TypeScript that will take in user input via Inquirer.js on the different animals living and employees working at the zoo.
+## User Story
 
-* As a developer, I want to follow the object-oriented programming (OOP) paradigm to build a modular, reuseable system for future development cycles.
+```md
+As a developer, I want a robust and less error prone application built using TypeScript that will take in user input via Inquirer.js on the different animals living and employees working at the zoo.
+```
 
 ## Acceptance Criteria
 
-* It's done when I update the variables in the `index.ts` file to have a typed array.
+```md
+As a developer, I want to follow the object-oriented programming (OOP) paradigm to build a modular, reuseable system for future development cycles.
+```
 
-* It's done when I create an `Employee` class that the `ZooKeeper` and `ZooWorker` classes can inherit properties from.
+## Key Features
 
-* It's done when I create a `Work` interface that the `Employee` class will implement method `receivePay()` from.
-
-* It's done when I create an `Animal` class that will implement the `ZooAnimals` interface.
-
-* It's done when I can call the `startAnimalCli()` method in the `Cli.ts` file to create a new `Animal` object and push it to the `animals` array.
-
-* It's done when I can call the `startZooKeeperCli()` method in the `Cli.ts` file to create a new `ZooKeeper` object and push it to the `employees` array.
-
-* It's done when I am able to store the `Animal` objects after calling the `startAnimalCli()` method in the associated `animals` array to see the list later.
-
-* It's done when I am able to store the `Employee` objects after calling the `startEmployeeCli()` method in the associated `employees` array to see the list later.
-
-* It's done when I can call the `feedAnimals()` method in the `Cli.ts` file to iterate through the `animals` array and, if the animal is hungry, console that the animal species will be fed.
-
-* It's done when I can call the `payEmployees()` method in the `Cli.ts` file to iterate through the `employees` array and, if the employee's name exists, console that the employee is paid an amount specified in the prompt.
-
-## Additional Requirements
-
-The following is a specification guide as to how the classes and interfaces should be created:
-
-* `Animal` class
-  * `species` as a string
-  * `hungry` as a boolean
-  * `weight` as a number
-  * `amount` as a number
-  * `makeRollCall()` as a method that returns how many animals of that species are in the zoo and whether they are hungry
-
-* `Employee` class
-  * Implements `Work` interface
-  * `name` as a string
-  * `id` as a number
-  * `title` as a string
-  * `salary` as a number
-  * `receivePay()` as a method that takes in a pay(number) as a parameter and returns pay as a number
+**Animal Tracking:** Allows the addition, removal, and categorization of different zoo animals, providing detailed information such as species, age, and health status. Users can also track feeding schedules and medical history.
 
 ---
 
-## 📝 Notes
-
-Refer to the documentation:
-
-* [.find() method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
-
-* [Inquirer package](https://www.npmjs.com/package/inquirer)
-
-* [Recursion in JavaScript](https://developer.mozilla.org/en-US/docs/Glossary/Recursion)
-
-## 💡 Hints
-
-How can we set up inheritance between classes?
-
-How can we use interfaces to have a polymorphic application?
+**Employee Management:** Manages employee data, including roles, schedules, and performance metrics. Employees' tasks and responsibilities are linked to specific animal care activities, ensuring seamless operation within the zoo.
 
 ---
 
-&copy; 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+**Type Safety:** The use of TypeScript ensures that variables and objects have defined types, minimizing the risk of errors in the application and improving maintainability.
+
+---
+
+**Data Relationships:** The system establishes relationships between animals and employees, helping zoo staff track which employees are responsible for which animals and tasks.
+
+---
+
+**OOP Structure:** The application follows an object-oriented approach, creating classes for animals, employees, tasks, and schedules, promoting modularity and reusability of code.
+
+
+## Technology Stack:
+
+**TypeScript:** Ensures type safety and better error detection during development.
+
+**Object-Oriented Programming (OOP):** Promotes a clean, scalable design by using classes, interfaces, inheritance, and encapsulation.
+
+---
+
+**CLI (Command-Line Interface):** Provides a simple interface for interacting with the system, allowing users to perform actions like adding new animals, assigning tasks to employees, and viewing animal and employee details.
+
+---
+
+**This project serves as a powerful tool for zoo management, ensuring efficient operations and providing an intuitive way to handle both animal and employee data.**
+
