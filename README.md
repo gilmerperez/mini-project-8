@@ -12,23 +12,23 @@ node index.js
 
 ## Instructions
 
-* The application allows users to input animal and employee data via prompts, including animal species, age, health status, and employee roles, schedules, and performance.
+1. The application allows users to input animal and employee data via prompts, including animal species, age, health status, and employee roles, schedules, and performance.
 
-* Based on this input, it generates and displays a detailed view of animals, employees, their relationships, and tasks.
+2. Based on this input, it generates and displays a detailed view of animals, employees, their relationships, and tasks.
 
 ## Key Features
 
-* **Animal Tracking:** Allows the addition, removal, and categorization of different zoo animals, providing detailed information such as species, age, and health status. Users can also track feeding schedules and medical history.
+* Animal Tracking: Allows the addition, removal, and categorization of different zoo animals, providing detailed information such as species, age, and health status. Users can also track feeding schedules and medical history.
 
-* **Employee Management:** Manages employee data, including roles, schedules, and performance metrics. Employees' tasks and responsibilities are linked to specific animal care activities, ensuring seamless operation within the zoo.
+* Employee Management: Manages employee data, including roles, schedules, and performance metrics. Employees' tasks and responsibilities are linked to specific animal care activities, ensuring seamless operation within the zoo.
 
-* **Type Safety:** The use of TypeScript ensures that variables and objects have defined types, minimizing the risk of errors in the application and improving maintainability.
-
-
-* **Data Relationships:** The system establishes relationships between animals and employees, helping zoo staff track which employees are responsible for which animals and tasks.
+* Type Safety: The use of TypeScript ensures that variables and objects have defined types, minimizing the risk of errors in the application and improving maintainability.
 
 
-* **OOP Structure:** The application follows an object-oriented approach, creating classes for animals, employees, tasks, and schedules, promoting modularity and reusability of code.
+* Data Relationships: The system establishes relationships between animals and employees, helping zoo staff track which employees are responsible for which animals and tasks.
+
+
+* OOP Structure: The application follows an object-oriented approach, creating classes for animals, employees, tasks, and schedules, promoting modularity and reusability of code.
 
 
 ## Technology Stack
